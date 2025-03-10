@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario Basico</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Formulario de Contacto</h1>
+		<form>
+			<label>Nombre: </label>
+			<input type="text" name="nombre" required="">
+			<label>* Correo Electronico</label>
+			<input type="email" name="email" required="">
+			<label>Telefono</label>
+			<input type="tel" name="telefono">
+			<label>* Mensaje</label>
+			<textarea id="Mensaje" name="mensaje" rows="4" required=""></textarea>
+			<label>Direccion</label>
+			<input type="direccion" name="direccion">
+			<label>* Pais:</label>
+			<select id="pais" name="pais" required="">
+				<option disabled="" selected="">Selecciona tu pais</option>
+				<option value="co">Colombia</option>
+				<option value="es">España</option>
+				<option value="Ar">Argentina</option>
+				<option value="Me">Mexico</option>
+			</select>
+			<input type="submit" name="" value="Enviar">
+			<p>* Campo obligatorio</p>
+
+		</form>
+
+	</div>
+
+</body>
+</html>
